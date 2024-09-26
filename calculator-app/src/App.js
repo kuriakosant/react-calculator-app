@@ -1,6 +1,18 @@
 import  "./styles.css"
 
+
+
+function reducer(state, {type , payload}) {
+  
+}
+
 function App() {
+  
+  const [{currentOperand, previousOperand, operation}, dispatch] = useReducer(reducer,
+    {})
+
+
+
   return ( <div className="calculator-grid">
     <div className="output">
       <div className="previous-operand"> </div>
