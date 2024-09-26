@@ -1,4 +1,4 @@
-import 
+import  "./styles.css"
 
 function App() {
   return ( <div className="calculator-grid">
