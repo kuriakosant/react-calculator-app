@@ -1,5 +1,6 @@
 import  "./styles.css"
 import { useReducer } from "react"
+import DigitButton from "./DigitButton"
 
 const ACTIONS = {
   ADD_DIGIT: "add-digit",
@@ -36,11 +37,11 @@ function App() {
     </div>
     <button className="span-two">AC</button>
     <button >DEL</button>
-    <button >/</button>
+    <DigitButton digit="/" dispatch={dispatch} />
     <button >1</button>
     <button >2</button>
     <button >3</button>
-    <button >*</button>
+    <DigitButton digit="*" dispatch={dispatch} />
     <button >4</button>
     <button >5</button>
     <button >6</button>
