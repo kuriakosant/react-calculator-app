@@ -11,6 +11,13 @@ const ACTIONS = {
 
 
 function reducer(state, {type , payload}) {
+  switch(type) {
+    case ACTIONS.ADD_DIGIT:
+      return {
+        ...state,
+        currentOperand: `${state.currentOperand || ""}${payload.digit}`
+      }
+  }
   
 }
 
@@ -20,7 +27,7 @@ function App() {
     {})
 
 
-
+  dispatch({type: ACTIONS.ADD_DIGIT, payload: {digit: 1}})
   return ( <div className="calculator-grid">
     <div className="output">
       <div className="previous-operand"> </div>
