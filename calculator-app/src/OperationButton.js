@@ -4,7 +4,7 @@ export default function OperationButton({dispatch, operation}) {
     return <button onClick={() => dispatch({type: ACTIONS.OPERATION, payload: {operation}})}
     
     >
-        {digit}
+        {operation}
         </button>
     
 }
