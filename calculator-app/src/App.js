@@ -36,11 +36,11 @@ function App() {
 
     </div>
     <button className="span-two">AC</button>
-    <button >DEL</button>
+    <DigitButton digit="DEL" dispatch={dispatch} />
     <DigitButton digit="/" dispatch={dispatch} />
     <DigitButton digit="1" dispatch={dispatch} />
     <DigitButton digit="2" dispatch={dispatch}/>
-    <button >3</button>
+    <DigitButton digit="3" dispatch={dispatch} />
     <DigitButton digit="*" dispatch={dispatch} />
     <DigitButton digit="4" dispatch={dispatch} />
     <DigitButton digit="5" dispatch={dispatch}/>
