@@ -26,7 +26,12 @@ function reducer(state, {type , payload}) {
       return {
         ...state,
         currentOperand: `${state.currentOperand || ""}${payload.digit}`
-      }
+      } 
+      
+      case ACTIONS.CHOOSE_OPERATION:
+        if (state.currentOperand == null && state.previousOperand == null) {
+          return state
+        }
 
       case ACTIONS.CLEAR:
         return{}
