@@ -121,6 +121,9 @@ function evaluate({ currentOperand, previousOperand, operation }) {
   return computation.toString()
 }
 
+const INTEGER_FORMATTER = new Intl.NumberFormat("en-us", {
+  maximumFractionDigits: 0,
+})
 
 
 function App() {
@@ -138,7 +141,7 @@ function App() {
           </div>
           <div className="current-operand">{formatOperand(currentOperand)}</div>
         </div>
-        
+
         <button className="span-two"onClick={() => dispatch({ type: ACTIONS.CLEAR })}>AC</button>
         <button onClick={() => dispatch({ type: ACTIONS.DELETE_DIGIT })}>DEL</button>
         <OperationButton operation="÷" dispatch={dispatch} />
