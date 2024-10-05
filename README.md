@@ -100,3 +100,27 @@ This calculator implements core arithmetic logic manually:
     -   Numbers are formatted using `Intl.NumberFormat` for improved readability.
 
 ----------
+## Screenshots
+
+### Calculator Interface
+![Calculator Interface](./assets/image.png)
+
+----------
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+----------
+
+## Contact
+
+For questions or collaboration:
+
+-   **Name**: [Kyriakos Antoniadis]
+-   **Email**: kuriakosant2003@gmail.com
+-   **GitHub**: [kuriakosant](https://github.com/kuriakosant)
+
+Feel free to reach out with any questions or suggestions!
+
+----------
