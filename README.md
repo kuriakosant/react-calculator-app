@@ -120,6 +120,7 @@ For questions or collaboration:
 -   **Name**: [Kyriakos Antoniadis]
 -   **Email**: kuriakosant2003@gmail.com
 -   **GitHub**: [kuriakosant](https://github.com/kuriakosant)
+-   **LinkedIn**: [Kyriakos Antoniadis](https://www.linkedin.com/in/kyriakos-antoniadis-288444326/)
 
 Feel free to reach out with any questions or suggestions!
 
