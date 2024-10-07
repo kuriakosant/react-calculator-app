@@ -105,6 +105,9 @@ This calculator implements core arithmetic logic manually:
 ### Calculator Interface
 ![Calculator Interface](./assets/image.png)
 
+
+![Calculator Interface 2](./assets/image1.png)
+
 ----------
 
 ## License
